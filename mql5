@@ -1,0 +1,65 @@
+
+//+------------------------------------------------------------------+
+//|                                          The US30 Market Maker  |
+//|                                Developer: Forex Robot Easy Team   |
+//|                                Developer's Site: forexroboteasy.com|
+//+------------------------------------------------------------------+
+
+//--- Opening range identification function
+void IdentifyOpeningRange()
+{
+   // Code to identify the opening range of the US30 index
+   // ...
+   // ...
+}
+
+//--- Order placement function
+void PlaceOrders()
+{
+   // Code to place limit orders and stop-limit orders within the opening range
+   // ...
+   // ...
+}
+
+//--- Volatility-based take-profit and stop-loss function
+void SetTakeProfitStopLoss()
+{
+   // Code to set take-profit and stop-loss levels based on current market volatility
+   // ...
+   // ...
+}
+
+//--- Risk management function
+void ManageRisk()
+{
+   // Code to ensure the strategy adheres to predefined risk parameters
+   // ...
+   // ...
+}
+
+//--- Automation function
+void ExecuteTradesAutomatically()
+{
+   // Code to execute trades automatically without manual intervention
+   // ...
+   // ...
+}
+
+//--- Entry point of the program
+void OnStart()
+{
+   // Identify the opening range of the US30 index
+   IdentifyOpeningRange();
+
+   // Place orders within the opening range
+   PlaceOrders();
+
+   // Set take-profit and stop-loss levels based on current market volatility
+   SetTakeProfitStopLoss();
+
+   // Manage the risk by adhering to predefined parameters
+   ManageRisk();
+
+   // Execute trades automatically
+   ExecuteTradesAutomatically();
+}
